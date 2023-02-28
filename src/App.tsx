@@ -77,6 +77,7 @@ function App() {
       notify();
       setWallet("");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [withdraw.status]);
 
   return (
